@@ -1,0 +1,6 @@
+countries = ("yemen", "trukia", "iraq","sudia","tons")
+print(countries)
+c=input("Enter country ")
+c=c.lower()
+if c in countries :print(countries.index(c))
+else :print("Not in tuple")
