@@ -29,7 +29,7 @@ while True:
             else:
                 names.remove(delete)
         elif num==4:
-            for i in range(1,len(names)+1):print (i,"-",names[i])
+            for i in range(0,len(names)+1):print (i+1,"-",names[i])
         elif num==5:
           break
           #exit()
